@@ -11,6 +11,7 @@ import hi from './hi'
 import ja from './ja'
 import pt from './pt'
 import ru from './ru'
+import ru from './vi'
 import type { Localization } from './types'
 
 const locales: Record<string, Localization> = {
@@ -26,6 +27,7 @@ const locales: Record<string, Localization> = {
   fr,
   hi,
   ja,
+  vi,
 }
 
 class Locale {
